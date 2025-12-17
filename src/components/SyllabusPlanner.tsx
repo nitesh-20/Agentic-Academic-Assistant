@@ -45,7 +45,10 @@ export function SyllabusPlanner() {
 
       <div className="field-row">
         <label className="field">
-          <span>Exam date</span>
+          <span>
+            Exam date{" "}
+            <small style={{ color: "#316bcdff", fontWeight: 400 }}>(dd/mm/yyyy)</small>
+          </span>
           <input
             type="date"
             value={examDate}
